@@ -1,0 +1,17 @@
+.lw { font-size: 60px; }
+canvas {
+  background-color: #F5F5F5;
+  width: 1500;
+  height: 800;
+
+
+}
+#input2 {
+  width: 180px;
+}
+#Step {
+  width: 180px;
+}
+#button {
+  margin-right: 5px;
+}

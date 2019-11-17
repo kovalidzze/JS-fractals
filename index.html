@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <p>Выберите график, глубину и шаг</p> 
+
+    <select id="Fractals" size="1">
+        <option value="0">Снежинка Коха</option>
+        <option value="1">Дерево 1</option>
+        <option value="2">Дерево 2</option>
+        <option value="5">Дерево 3</option>
+        <option value="3">Дерево 4</option>
+        <option value="4">Треугольники Серпинского</option>
+    </select>
+
+  <select id="Depths" size="1">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+     
+    </select>
+  
+    <!-- <p><input required type="text" id="input2" name="DepthRInput" placeholder="Введите глубину рекурсии" /></p> -->
+    <p><input required type="text" id="Step" name="StepSInput" placeholder="Введите размер шага" /></p>
+    <p><input type="button" id="button" onclick="DrawFractals()" name="drawButton" value="Нарисовать" />
+    <input type="button" onclick="ClearCanvas()" name="clearButton" value="Очистить" /></p>
+    
+  <canvas id="canvas"></canvas>
+  
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
